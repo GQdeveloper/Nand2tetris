@@ -18,11 +18,14 @@ programs written in the machine language, the topmost chip within the CPU
 is the ALU (Arithmetic Logical Unit) which computes computes a given function
 on its two given data inputs, and outputs the result.
 
+---
 
 ### Assembler 
 
 Also wrote the program that translates symbolic machine language to binary code that
 can be executed by the CPU.
+
+---
 
 ### Virtual machine
 
@@ -31,4 +34,4 @@ assembly code, which later will be run trought the assembler to genarete the equ
 bynary code of each VM command. This file still missing some functionalities.
 
 
-For information please refer to the official https://www.nand2tetris.org/ website.
+  * For information please refer to the official https://www.nand2tetris.org/ website.
