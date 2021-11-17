@@ -1,0 +1,40 @@
+(LOOP)
+//SWAPING VALUES
+@R0
+A=M
+D=M
+@TEMP
+M=D
+@R1
+A=M
+D=M
+@R0
+A=M
+M=D
+@TEMP
+D=M
+@R1
+A=M
+M=D
+//UPDATING COUNTERS
+@R0
+M=M+1
+@R1
+M=M-1
+//SUBSTRACTION TO COMPARE
+@R0
+D=M
+A=A+1
+A=M
+D=D-A
+
+// DO WE NEED TO LOOP ?
+@LOOP
+D;JLT
+
+
+
+
+
+
+
