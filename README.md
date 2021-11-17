@@ -34,4 +34,5 @@ assembly code, which later will be run trought the assembler to genarete the equ
 bynary code of each VM command. This file still missing some functionalities.
 
 
-  * For information please refer to the official https://www.nand2tetris.org/ website.
+  * For more information please refer to the official https://www.nand2tetris.org/ website.
+  * This files were written by Giovanny Quimbayo.
