@@ -35,4 +35,4 @@ bynary code of each VM command. This file still missing some functionalities.
 
 
   * For more information please refer to the official https://www.nand2tetris.org/ website.
-  * This files were written by Giovanny Quimbayo.
+  * These files were written by Giovanny Quimbayo.
