@@ -1,11 +1,13 @@
 # Nand2tetris Project 
 
+In the Nand2tetris project, I built a computer from scratch beginning with logical gates, RAM, registers, and other chips up to the CPU. Along with these, I wrote the assembler and some parts of the virtual machine.<br />
+<br />
+Thanks to all the tools and necessary files found on the official website, I  learned how to write code using Assembly language, and then translate that code into binary using my assembler.<br />
 
 ---
 ### Logic Gates
 
-Wrote the logic for each different logic gate using a Hardware Definition Language,
-later used to create the CPU and RAM: these include basic gates such:
+Wrote the logic for each different logic gate using a Hardware Definition Language, also used to create the CPU and RAM: these include basic gates such:
 
 - And
 - Not
@@ -22,6 +24,15 @@ I integrated the chips built into a computer architecture capable of executing p
 ### Assembler 
 
 The assembler program I wrote translates symbolic machine language (assembly) to binary code that can be executed by the CPU.
+just like the following:
+<pre>
+@16                      0000000000010000<br />
+M=1                      1110111111001000<br />
+@17        ------>       0000000000010001<br />
+M=0                      1110101010001000<br />
+@16                      0000000000010000<br />
+D=M                      1111110000010000<br />
+</pre>
 
 ---
 
