@@ -2,7 +2,7 @@
 
 In the Nand2tetris project, I built a computer from scratch beginning with logical gates, RAM, registers, and other chips up to the CPU. Along with these, I wrote the assembler and some parts of the virtual machine using **C** as programming language.<br />
 <br />
-Thanks to all the tools and necessary files found on the official website, I  learned how to write code using Assembly language, and then translate that code into binary using my assembler.<br />
+Thanks to all the tools and necessary files found on the official website, I  learned how to write Assembly language code, and then translate that code into binary using my assembler.<br />
 
 ---
 ### Logic Gates
